@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Trip - PlanMy-Trip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">PlanMy-Trip</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="book-trip.html" class="active">Book Your Trip</a></li>
+        <li><a href="index.html" class="nav-btn">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-booking">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Plan Your Perfect Indian Journey</h1>
+        <p>Choose your destination, travel dates, and package to start an unforgettable adventure!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="booking-section">
+    <div class="booking-container">
+      <h2>Book Your Trip</h2>
+      <form class="booking-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+        <label for="destination">Destination</label>
+        <select id="destination" required>
+          <option value="">Select Destination</option>
+          <option value="goa">Goa</option>
+          <option value="kerala">Kerala</option>
+          <option value="jaipur">Jaipur</option>
+          <option value="manali">Manali</option>
+        </select>
+
+        <label for="package">Package Type</label>
+        <select id="package" required>
+          <option value="">Select Package</option>
+          <option value="budget">Budget</option>
+          <option value="standard">Standard</option>
+          <option value="premium">Premium</option>
+        </select>
+
+        <label for="travel-date">Travel Date</label>
+        <input type="date" id="travel-date" required>
+
+        <label for="people">Number of Travelers</label>
+        <input type="number" id="people" min="1" placeholder="1" required>
+
+        <button type="submit" class="booking-btn">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

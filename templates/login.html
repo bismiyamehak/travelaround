@@ -1,0 +1,103 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+    <title>Travel Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 10px;
+            width: 320px;
+            color: white;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            background: #f1f1f1;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background: #00bcd4;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background: #0097a7;
+        }
+
+        .login-container p {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .login-container a {
+            color: #00e5ff;
+            text-decoration: none;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2> Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            
+            <button type="submit"> <span><a class="log" href="book-trip.html">Login</a></span></button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Sign up</a></p>
+    </div>
+
+</body>
+</html> 
+
+
+
+
+ 
+
+
+
+
+

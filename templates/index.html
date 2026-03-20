@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlanMy-Trip- Indian Travel Recommendations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">PlanMy-Trip</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="login.html" class="nav-btn">Login</a></li>
+        <li><a href="register.html" class="nav-btn register-btn">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Explore Incredible India with Smart Travel Recommendations</h1>
+        <p>Discover beaches, hill stations, heritage cities, spiritual journeys, and adventure escapes across India.</p>
+        <a href="register.html" class="hero-btn">Start Your Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Recommendation Section -->
+  <section class="recommendation-search">
+    <h2>Find Your Perfect Indian Destination</h2>
+    <form class="search-box">
+      <input type="text" placeholder="Enter destination or state (e.g. Kerala, Goa, Manali)">
+      <select>
+        <option>Choose Category</option>
+        <option>Hill Station</option>
+        <option>Beach</option>
+        <option>Heritage</option>
+        <option>Spiritual</option>
+        <option>Adventure</option>
+      </select>
+      <select>
+        <option>Budget Range</option>
+        <option>₹5,000 - ₹10,000</option>
+        <option>₹10,000 - ₹20,000</option>
+        <option>₹20,000+</option>
+      </select>
+      <button type="submit">Get Recommendations</button>
+    </form>
+  </section>
+
+  <!-- Popular Indian Destinations -->
+  <section class="destinations" id="destinations">
+    <h2>Popular Indian Destinations</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="../scr/goa.png" alt="Goa">
+        <h3>Goa</h3>
+        <p>Sunny beaches, nightlife, Portuguese charm, and water sports.</p>
+      </div>
+
+      <div class="card">
+        <img src="../scr/goa.png" alt="Kerala">
+        <h3>Kerala</h3>
+        <p>Backwaters, houseboats, lush greenery, and peaceful escapes.</p>
+      </div>
+
+      <div class="card">
+        <img src="../scr/jaipur.png" alt="Jaipur">
+        <h3>Jaipur</h3>
+        <p>Royal palaces, forts, culture, and vibrant Rajasthani heritage.</p>
+      </div>
+       <div class="card">
+        <img src="../scr/ladak.jpeg" alt="Kerala">
+        <h3>Ladak</h3>
+        <p>Leh, Kargil, Pangong Lake, Nubra Valley, trekking.</p>
+      </div>
+
+
+
+
+       <div class="card">
+        <img src="../scr/pondicherry.jpeg" alt="Kerala">
+        <h3>Pondicherry</h3>
+        <p>Auroville (City of Dawn), Promenade Beach, Ashram, spiritual tourism.</p>
+      </div>
+
+      <div class="card">
+        <img src="../scr/manali.png" alt="Manali">
+        <h3>Manali</h3>
+        <p>Snow-capped mountains, adventure sports, and scenic valleys.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Travel Categories -->
+  <section class="categories" id="categories">
+    <h2>Explore by Travel Style</h2>
+    <div class="category-grid">
+      <div class="category-box">🏔 Hill Stations</div>
+      <div class="category-box">🏖 Beaches</div>
+      <div class="category-box">🏰 Heritage</div>
+      <div class="category-box">🛕 Spiritual Tours</div>
+      <div class="category-box">🎒 Adventure Trips</div>
+      <div class="category-box">🌿 Nature Retreats</div>
+    </div>
+  </section>
+
+  <!-- About Travel Recommendation Section -->
+  <section class="about-recommendation" id="about">
+    <div class="about-left">
+      <h2>About Our Travel Recommendation System</h2>
+      <p>
+         PlanMy-Trip is designed to help travelers discover the best places in India based on their interests,
+        budget, and travel style. Whether you are looking for a peaceful Kerala backwater escape, a spiritual
+        journey to Varanasi, a heritage tour in Rajasthan, or an adventurous trip to Himachal, our platform
+        gives you personalized travel recommendations.
+      </p>
+      <p>
+        We focus on making travel planning easier by organizing destinations into categories such as beaches,
+        hill stations, heritage cities, nature retreats, and cultural hotspots. Our goal is to help users save
+        time, compare options, and plan memorable journeys across India.
+      </p>
+      <a href="register.html" class="about-btn">Get Personalized Suggestions</a>
+    </div>
+    <div class="about-right">
+      <div class="about-card">
+        <h3>Why Choose Us?</h3>
+        <ul>
+          <li>✔ Personalized destination recommendations</li>
+          <li>✔ Budget-friendly travel suggestions</li>
+          <li>✔ Indian states & tourist circuits coverage</li>
+          <li>✔ Category-based travel discovery</li>
+          <li>✔ Easy trip planning experience</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages -->
+  <section class="packages">
+    <h2>Top Indian Travel Packages</h2>
+    <div class="package-list">
+      <div class="package">
+        <h3>Goa Beach Escape</h3>
+        <p>4 Days / 3 Nights</p>
+        <span>₹12,999</span>
+      </div>
+      <div class="package">
+        <h3>Kerala Backwater Retreat</h3>
+        <p>5 Days / 4 Nights</p>
+        <span>₹18,499</span>
+      </div>
+      <div class="package">
+        <h3>Rajasthan Heritage Tour</h3>
+        <p>6 Days / 5 Nights</p>
+        <span>₹24,999</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>PlanMy-Trip- Explore Incredible India</h3>
+      <p>Your one-stop platform for personalized travel recommendations across India.</p>
+    </div>
+
+    <div class="footer-team">
+      <h3>Team Contacts</h3>
+      <ul>
+        <li>💼 Bismiya Mehak - <a href="mailto:bismiya@example.com">bismiya@example.com</a> | +91 9876543210</li>
+        <li>💼 Jaahanavi K M - <a href="mailto:rahul@example.com">jaahanavi@example.com</a> | +91 9123456780</li>
+        <li>💼 Mahalakshmi S - <a href="mailto:ananya@example.com">mahalakshmi@example.com</a> | +91 9988776655</li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <p>
+        <a href="#">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Twitter</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 YatraSetu. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
